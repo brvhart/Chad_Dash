@@ -1,0 +1,77 @@
+// DOC TOPBAR
+
+main {
+    
+    .topBar {
+        position: fixed;
+       
+        top: 0;
+        width: 100%;
+        left: 50px;
+        height: 200px;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
+
+     
+        // background-color: $backgroundColor;
+     
+        hr {
+            position: relative;
+            top: 30px;
+            left: 20%;
+            z-index: 10;
+            border: 0;
+            height: 1px;
+            width: 80%;
+            background-image: linear-gradient(to right, rgba(46, 102, 142, 0), rgba(46, 102, 142, 0.75), rgba(46, 102, 142, 0));
+        }
+        
+        // .infoContainer{
+        //     position: relative;
+        //     left: 25%;
+        //     width: 100%;
+            
+            
+            
+        //     }
+            .mainLogo {
+                
+                margin-right: 50px;
+
+               
+                
+
+
+            }
+
+                       
+     
+            
+            // li {
+            //     display: inline;
+            //     padding: 8px;
+            //     // font-size: $bodySubheader;
+            //     a {
+                    
+            //         #addCharts {
+            //             color: $color;  
+                                   
+            //             &:hover, &:active {
+            //                 color: $green;
+            //             }
+             
+            //         }
+                    
+            //         #leavePage {
+            //             color: $color;  
+                                   
+            //             &:hover, &:active {
+            //                 color: $pink;
+            //             }
+            //         }
+            //     }
+            // }
+        
+    }
+}
